@@ -28,7 +28,7 @@
 |:---:|:---:|:---:|:---:|
 | **서지혜** | **심효진** | **이남길** | **우민하** | 
 | [@Jihye0623](https://github.com/jihye0623)  | [@hyojin-shj](https://github.com/hyojin-shj)  | [@SouthGiri](https://github.com/SouthGiri) | [@minha222](https://github.com/minha222) |
-| • **AI**: `OpenAI API` <br/> • **Analysis**: `Plotly`  <br/> • **DB**: `MySQL` | • **DB**: `Schema Update (lat/lon)` <br> • **Filtering**: `매물 선별` <br> • **Map**: `지도 시각화(Folium)` • <br> • **UI**: `Price Filter Bar`|  • **DB**: `MySQL` <br/> • **Logic**: `Loan Condition`, <br> `Monthly Payment` <br> • **Chart**: `Plotly Strip` |• **UI/UX**: `Main Page Layout` <br> • **Form**: `User Input` |
+| • **AI**: `OpenAI API` <br/> • **Analysis**: `Plotly`  <br/> • **DB**: `MySQL` | • **DB**: `Schema Update (lat/lon)` <br> • **Filtering**: `매물 선별` <br> • **Map**: `지도 시각화(Folium)`  <br> • **UI**: `Price Filter Bar`|  • **DB**: `MySQL` <br/> • **Logic**: `Loan Condition`, <br> `Monthly Payment` <br> • **Chart**: `Plotly Strip` |• **UI/UX**: `Main Page Layout` <br> • **Form**: `User Input` |
 
 <br/>
 
