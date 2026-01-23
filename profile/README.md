@@ -28,8 +28,7 @@
 |:---:|:---:|:---:|:---:|
 | **서지혜** | **심효진** | **이남길** | **우민하** | 
 | [@Jihye0623](https://github.com/jihye0623)  | [@hyojin-shj](https://github.com/hyojin-shj)  | [@SouthGiri](https://github.com/SouthGiri) | [@minha222](https://github.com/minha222) |
-| • **AI**: `OpenAI API` <br/> • **Analysis**: `Plotly`  <br/> **DB**: `MySQL` | **DB**: `Schema Update (lat/lon)` <br>
-• **Filtering**: `조건 기반 매물 선별` <br>• **Map**: `버블 지도 시각화(Folium)`• **UI**: `Price Filter Bar`|  • **Analytics**: `Monthly Payment` <br> **Chart**: `Boxplot` |• **UI/UX**: `Main Page Layout` <br> • **Form**: `User Input` |
+| • **AI**: `OpenAI API` <br/> • **Analysis**: `Plotly`  <br/> **DB**: `MySQL` | **DB**: `Schema Update (lat/lon)` <br> • **Filtering**: `조건 기반 매물 선별` <br> • **Map**: `버블 지도 시각화(Folium)` • **UI**: `Price Filter Bar`|  • **Analytics**: `Monthly Payment` <br> **Chart**: `Boxplot` |• **UI/UX**: `Main Page Layout` <br> • **Form**: `User Input` |
 
 <br/>
 
