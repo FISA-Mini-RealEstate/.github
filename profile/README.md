@@ -34,8 +34,6 @@
 
 ## 📊 데이터 선정 및 분석 (Data & Insights)
 
-<img width="628" height="480" alt="image" src="https://github.com/user-attachments/assets/0475cf43-60c8-49e8-adea-3f4643d9edda" />
-
 ### 1. 데이터 선정 배경 
 본 프로젝트는 사회초년생의 주거 불안 해소를 목표로 하며, 신뢰성 확보를 위해 공공 데이터와 실제 금융 데이터를 융합했습니다.
 * **서울시 부동산 전월세가 정보**: 실제 전월세 거래 가격과 위치 정보를 담아, 시세 분석의 기준이 됨.
