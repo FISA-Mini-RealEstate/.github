@@ -28,7 +28,8 @@
 |:---:|:---:|:---:|:---:|
 | **서지혜** | **심효진** | **이남길** | **우민하** | 
 | [@Jihye0623](https://github.com/jihye0623)  | [@hyojin-shj](https://github.com/hyojin-shj)  | [@SouthGiri](https://github.com/SouthGiri) | [@minha222](https://github.com/minha222) |
-| • **AI**: `OpenAI API` <br/> • **Analysis**: `Plotly`  <br/> **DB**: `MySQL` | • **Visualization**: `Folium Map` <br> • **UI**: `Price Filter Bar`|  • **Analytics**: `Monthly Payment` <br> **Chart**: `Boxplot` |• **UI/UX**: `Main Page Layout` <br> • **Form**: `User Input` |
+| • **AI**: `OpenAI API` <br/> • **Analysis**: `Plotly`  <br/> **DB**: `MySQL` | **DB**: `Schema Update (lat/lon)` <br>
+• **Filtering**: `조건 기반 매물 선별` <br>• **Map**: `버블 지도 시각화(Folium)`• **UI**: `Price Filter Bar`|  • **Analytics**: `Monthly Payment` <br> **Chart**: `Boxplot` |• **UI/UX**: `Main Page Layout` <br> • **Form**: `User Input` |
 
 <br/>
 
@@ -83,7 +84,7 @@
 * **버블 지도 시각화:**  
   필터링을 통과한 매물만 지도에 버블 형태로 표시하여  
   사용자가 가격·입지 분포를 직관적으로 탐색할 수 있도록 설계했습니다.
-
+<br/>
 ### 2️⃣ AI 부동산 컨설턴트 (Page 1)
 * **맞춤형 매물 추천:** 사용자가 선호하는 분위기(예: "조용한 숲세권")를 입력하면 OpenAI API가 매물의 특징을 분석해 적합도를 판단합니다.
 * **스마트 비교 리포트:** 선택한 두 매물의 **가격, 위치, 장단점**을 1:1로 비교하여 Markdown 형식의 깔끔한 리포트를 제공합니다.
