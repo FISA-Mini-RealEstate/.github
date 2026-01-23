@@ -38,6 +38,7 @@
 본 프로젝트는 사회초년생의 주거 불안 해소를 목표로 하며, 신뢰성 확보를 위해 공공 데이터와 실제 금융 데이터를 융합했습니다.
 * **서울시 부동산 전월세가 정보**: 실제 전월세 거래 가격과 위치 정보를 담아, 시세 분석의 기준이 됨.
 * **주택도시기금(HUG) 대출 상품 데이터:** '청년 버팀목 전세자금대출'의 정확한 금리와 한도 산출을 위해 선정.
+* **은행연합회 전세자금대출 상품 데이터:** 시중 은행의 전세 자금 대출 상품의 금리와
 
 ### 2. 분석 기준 및 도출 인사이트
 * **분석 기준:**
@@ -59,12 +60,12 @@
 
 | 구분 | 기술 | 활용 내용 |
 | :--- | :--- | :--- |
-| **Frontend** | ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B) | Python 기반의 빠른 웹 대시보드 구현 및 인터랙티브 UI 구성 |
-| **Backend** | ![Python](https://img.shields.io/badge/-Python-3776AB) | 데이터 전처리(Pandas), 대출 한도 계산 로직 구현 |
-| **Database** | ![MySQL](https://img.shields.io/badge/-MySQL-4479A1) | 서울시 부동산 실거래가 데이터(약 2.7만 건) 적재 및 쿼리 |
-| **AI / ML** | ![OpenAI](https://img.shields.io/badge/-OpenAI-412991) | 사용자 취향 분석 및 매물 비교 리포트 생성 (Prompt Engineering) |
-| **Visualization** | Plotly, Folium | 동적 지도 시각화, 전세가율 위험도 그래프, 매물 가격 비교 차트 |
-| **Collaboration** | Git, Notion | 형상 관리 및 모듈화 협업 (Page 단위 분리 개발) |
+| **Frontend** | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white) | Python 기반의 빠른 웹 대시보드 구현 및 인터랙티브 UI 구성 |
+| **Backend** | ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) | 데이터 전처리(Pandas), 대출 한도 계산 로직 구현 |
+| **Database** | ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) | 마포구 부동산 실거래가 데이터 적재 및 쿼리 |
+| **AI / ML** | ![OpenAI](https://img.shields.io/badge/OpenAI-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white) | 사용자 취향 분석 및 매물 비교 리포트 생성 (Prompt Engineering) |
+| **Visualization** | ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Folium](https://img.shields.io/badge/Folium-%2377B829.svg?style=for-the-badge&logo=folium&logoColor=white) | 동적 지도 시각화, 전세가율 위험도 그래프, 매물 가격 비교 차트 |
+| **Collaboration** | ![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) | 형상 관리 및 모듈화 협업 (Page 단위 분리 개발) |
 
 <br/>
 
