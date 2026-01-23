@@ -12,7 +12,7 @@
 ### 🔗 서비스 배포 (Deployment)
 * **Streamlit App:** [👉 배포된 웹사이트 링크 클릭](https://fisa-mini-realestate-fisa06-realestate-home-szt3l7.streamlit.app/)
 * **GitHub Repository:** [👉 깃허브 리포지토리 바로가기](https://github.com/FISA-Mini-RealEstate/fisa06-realEstate)
-* * **시현영상** [👉 유튜브 시현영상 바로가기](https://youtu.be/nRr8XLMMfd8)
+* **시현영상** [👉 유튜브 시현영상 바로가기](https://youtu.be/nRr8XLMMfd8)
 <br/>
 ---
 
