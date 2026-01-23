@@ -152,4 +152,6 @@
 
 ---
 
-https://youtu.be/nRr8XLMMfd8
+### 🎬 시현영상 
+
+[![Video Label](http://img.youtube.com/vi/nRr8XLMMfd8/0.jpg)](https://youtu.be/nRr8XLMMfd8)
