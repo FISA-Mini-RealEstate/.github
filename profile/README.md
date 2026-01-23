@@ -1,7 +1,7 @@
 # 🏠 청년 버팀목 전세자금 대출 시뮬레이터 & AI 부동산 컨설턴트
 > **"사회초년생을 위한 데이터 기반 전세 사기 예방 및 맞춤형 매물 추천 서비스"**
 
-![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.42-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat&logo=mysql&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-412991?style=flat&logo=openai&logoColor=white)
@@ -10,8 +10,8 @@
 <br>
 
 ### 🔗 서비스 배포 (Deployment)
-* **Streamlit App:** [👉 배포된 웹사이트 링크 클릭]( 여기에_배포_URL_입력 )
-* **GitHub Repository:** [👉 깃허브 리포지토리 바로가기](https://github.com/FISA-Mini-RealEstate/fisa06-streamlit)
+* **Streamlit App:** [👉 배포된 웹사이트 링크 클릭](https://fisa06-realestategit.streamlit.app/)
+* **GitHub Repository:** [👉 깃허브 리포지토리 바로가기](https://github.com/FISA-Mini-RealEstate/fisa06-realEstate)
 <br/>
 
 ---
@@ -28,7 +28,7 @@
 |:---:|:---:|:---:|:---:|
 | **서지혜** | **심효진** | **이남길** | **우민하** | 
 | [@Jihye0623](https://github.com/jihye0623)  | [@hyojin-shj](https://github.com/hyojin-shj)  | [@SouthGiri](https://github.com/SouthGiri) | [@minha222](https://github.com/minha222) |
-| • **AI**: `OpenAI API` <br/> • **Analysis**: `Plotly`  <br/> **DB**: `MySQL` | **DB**: `Schema Update (lat/lon)` <br> • **Filtering**: `조건 기반 매물 선별` <br> • **Map**: `버블 지도 시각화(Folium)` • <br> **UI**: `Price Filter Bar`|  • **DB**: `MySQL` <br/> **Logic**: `Loan Condition`, <br> `Monthly Payment` <br> **Chart**: `Plotly Strip` |• **UI/UX**: `Main Page Layout` <br> • **Form**: `User Input` |
+| • **AI**: `OpenAI API` <br/> • **Analysis**: `Plotly`  <br/> • **DB**: `MySQL` | • **DB**: `Schema Update (lat/lon)` <br> • **Filtering**: `매물 선별` <br> • **Map**: `지도 시각화(Folium)` • <br> • **UI**: `Price Filter Bar`|  • **DB**: `MySQL` <br/> • **Logic**: `Loan Condition`, <br> `Monthly Payment` <br> • **Chart**: `Plotly Strip` |• **UI/UX**: `Main Page Layout` <br> • **Form**: `User Input` |
 
 <br/>
 
@@ -85,6 +85,7 @@
   필터링을 통과한 매물만 지도에 버블 형태로 표시하여  
   사용자가 가격·입지 분포를 직관적으로 탐색할 수 있도록 설계했습니다.
 <br/>
+
 ### 2️⃣ AI 부동산 컨설턴트 (Page 1)
 * **맞춤형 매물 추천:** 사용자가 선호하는 분위기(예: "조용한 숲세권")를 입력하면 OpenAI API가 매물의 특징을 분석해 적합도를 판단합니다.
 * **스마트 비교 리포트:** 선택한 두 매물의 **가격, 위치, 장단점**을 1:1로 비교하여 Markdown 형식의 깔끔한 리포트를 제공합니다.
@@ -99,13 +100,17 @@
 
 ## 📂 프로젝트 구조 (Directory Structure)
 ```
-.
-├── 📄 app.py                  # 메인 애플리케이션 (네비게이션 역할)
-├── 📂 pages        
-│   ├── 📄 1-pages1.py         # [Page 1] 부동산 탐색 & AI 추천
-│   └── 📄 2-pages2.py         # [Page 2] 대출 계산기
-├── 📄 .env                    # API Key 보안 관리
-└── 📄 requirements.txt        # 의존성 라이브러리 목록
+📂 FISA-realEstate 
+ ┣ 📂 figure/              
+ ┃ ┣ 🖼️ mapo.png
+ ┃ ┗ 🖼️ woorifisa.png
+ ┣ 📂 pages/              
+ ┃ ┣ 📜 1_전세_지도_&_AI_컨설턴트.py
+ ┃ ┗ 📜 2_대출_한도_계산하기.py
+ ┃ ┗ 📜 3-전세_시장_심층_분석.py
+ ┣ 📜 Home.py               
+ ┣ 📜 sidebar.py           
+ ┗ 📜 requirements.txt     
 ```
 
 
