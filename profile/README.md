@@ -11,7 +11,7 @@
 
 ### 🔗 서비스 배포 (Deployment)
 * **Streamlit App:** [👉 배포된 웹사이트 링크 클릭]( 여기에_배포_URL_입력 )
-* **GitHub Repository:** [👉 깃허브 리포지토리 바로가기](https://github.com/FISA-Mini-RealEstate/fisa06-streamlit)
+* **GitHub Repository:** [👉 깃허브 리포지토리 바로가기](https://github.com/FISA-Mini-RealEstate/fisa06-realEstate)
 <br/>
 
 ---
